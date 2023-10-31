@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Source+Code+Pro:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <header class="container">
+      <h1>Forms</h1>
+    </header>
+    <main class="container">
+    <div>
+      <h2>Name:</h2>
+      <label for="fname">First name:</label><br />
+      <input
+        autofocus
+        type="text"
+        id="fname"
+        name="fname"
+        value="Enter your first name"
+        size="50"
+      /><br />
+      <label for="lname">Last name:</label><br />
+      <input
+        type="text"
+        id="lname"
+        name="lname"
+        value="Enter your last name"
+        size="75"
+      /><br /><br />
+    </div>
+    <div>
+      <h2>Favorite Snacks:</h2>
+      <label>
+        <input type="checkbox" name="languages" value="Cookies" />
+        Cookies </label
+      ><br />
+      <label>
+        <input type="checkbox" name="languages" value="Goldfish" />
+        Goldfish </label
+      ><br />
+      <label>
+        <input type="checkbox" name="languages" value="Granola-Bars" /> Granola
+        Bars </label
+      ><br />
+      <label>
+        <input type="checkbox" name="languages" value="Chips" /> Chips </label
+      ><br />
+      <label>
+        <input type="checkbox" name="languages" value="Yogurt" /> Yogurt </label
+      ><br />
+    </div>
+    <div>
+      <h2>Choose a number between 1 and 5:</h2>
+      <form action="/action_page.php">
+        <label for="quantity">Enter here:</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="5" />
+        <input type="submit" value="Submit" />
+        <br />
+      </div>
+      <div>
+        <form>
+          <h2>Birthday?</h2>
+          <label for="bdaymonth">Birthday (month and year):</label>
+          <input type="month" id="bdaymonth" name="bdaymonth" required />
+          <br />
+        </form>
+      </div>
+      <div>
+        <h2>Email?</h2>
+        <form>
+          <label for="email">Enter your email:</label>
+          <input type="email" id="email" name="email" required />
+        </form>
+      </div>
+        <h2>Ready to submit?</h2>
+      </form>
+      <input type="submit" value="Click... If you dare!" id="submit" />
+    <footer class="container">
+      <p>&copy; 2023 Avery Wright</p>
+    </footer>
+  </body>
+</html>

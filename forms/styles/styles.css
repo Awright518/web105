@@ -1,0 +1,49 @@
+/* Things that will be variables */
+
+/* colors */
+:root {
+    --main: #5f856e;
+    --bright: #F39A9D;
+    --muted: #ffd8dc;
+    --background: #fff1f0;
+
+    --font: 'Source Code Pro', sans-serif;
+    --headings: 'Indie Flower', sans-serif;
+}
+
+/* fonts */
+
+body {
+    background: var(--background);
+    font-size: x-large;
+    color: var(--main);
+    font-family: var(--font);
+    margin:10px;
+}
+
+header
+{
+    color: var(--main);
+    padding: 10px 15px;
+    border: 2px solid var(--bright);
+    border-radius: 20px;
+    font-family: var(--headings);
+    margin: 10px;
+    text-align: center;
+}
+
+#email{
+height: 50px;
+width: 300px;
+}
+
+div{
+    border: 2px solid var(--bright);
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+imputs{
+    border: 2px solid var(--bright);
+}
