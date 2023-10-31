@@ -1,0 +1,114 @@
+/*   Things that will be variables  
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+}
+
+body {
+    background-color: var(--blue);
+} */
+
+/* colors   */
+:root {
+    --bright: #84BC9C;
+    --muted: #1e5e51;
+    --dark: #0A2342;
+    --light: #fff2cc;
+    --intense: #F46197;
+    --background: #84BC9C;
+
+    --type: 'Roboto Flex', sans-serif;
+    --headings: 'Young Serif', serif;
+}
+
+
+
+
+
+
+/* fonts  
+
+*/
+
+body {
+    background: var(--background);
+    color: var(--muted);
+    font-size: x-large;
+    font-family: var(--type);
+}
+
+h1,
+h2,
+h3 {
+    color: var(--muted);
+    font-family: var(--headings);
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    background: var(--dark);
+    padding: 10px 15px;
+    margin: 20px;
+    text-decoration: none;
+    color: var(--intense);
+    border: 2px solid var(--dark);
+    border-radius: 20px;
+}
+
+nav a:hover {
+    color: var(--dark);
+    background: var(--intense);
+}
+
+
+img {
+    margin: 10px auto;
+    width: 90%;
+    display: block;
+}
+
+.container {
+    padding: 20px;
+    width: 80%;
+    margin: 10px auto;
+    border: 2px solid var(--light);
+}
+
+a {
+    text-decoration: none;
+    color: var(--intense);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--muted);
+}
+
+dt {
+    margin-top: 40px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 10px;
+    background-color: var(--dark);
+    padding: 10px;
+}
+
+.grid-container>div {
+    background-color: var(--light);
+    text-align: center;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+#large{
+    width:60%;
+    display: block;
+    margin:25px auto;
+}

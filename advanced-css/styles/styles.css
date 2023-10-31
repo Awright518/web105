@@ -1,0 +1,60 @@
+/* Things that will be variables */
+
+/* colors */
+:root{
+    --main: #739e84;
+    --bright: #F39A9D;
+    --muted:#ffd8dc;
+    --background:#fff1f0;
+
+    --font: 'Source Code Pro', sans-serif;
+    --headings: 'Indie Flower', sans-serif;
+}
+
+/* fonts */
+
+body{
+    background: var(--background);
+    font-size: x-large;
+    color: var(--main);
+    font-family: var(--font);
+}
+
+h1, h3, aside{
+    color: var(--main);
+    padding: 10px 15px;
+    border: 2px solid var(--bright);
+    border-radius: 20px;
+    font-family: var(--headings);
+}
+
+h2{
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+    font-family: var(--font);
+}
+
+nav a{
+    background: var(--main);
+        padding: 10px 15px;
+        margin: 20px;
+        text-decoration: none;
+        color: var(--muted);
+        border: 2px solid var(--bright);
+        border-radius: 20px;
+}
+
+nav a:hover{
+    color:var(--main);
+    background: var(--muted);
+}
+
+img{
+    margin:20px auto;
+    padding-left: 165px;
+    width: 450px;
+    height: 300px;
+}

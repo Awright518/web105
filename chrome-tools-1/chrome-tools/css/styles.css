@@ -1,0 +1,45 @@
+body{
+    background: #ddcfe3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-family:math;
+    color:#625e89;
+    text-align:center;
+}
+
+img {
+    width:70%;
+    margin: 70px auto;
+    border:5px solid #625e89;
+    border-radius:50%;
+    display:block;
+}
+figure {
+    border:4px solid;
+    border-color: #879279;
+    width:350px;
+    height:350px;
+    padding:2px;
+    border-radius:50%;
+    background:#aeb9a0;
+    margin: auto;
+}
+
+ol li {
+    color:#5d446d;
+}
+ul {
+    list-style-type:disclosure-open;
+    color:#93884c
+}
+
+dt {
+    color:#691746;
+    font-weight:bolder;
+}
+
+dd {
+    color:chartreuse;
+    font-size:xxx-large;
+}

@@ -1,0 +1,50 @@
+body {
+    background-color:rgb(252, 244, 234);
+}
+h1 {
+    color:rgb(252, 244, 234);
+    background-color:rgb(255, 216, 228);
+    font-family:monospace;
+    font-weight: 800;
+    font-size: xx-large;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 2px solid rgb(146, 185, 220);
+    text-align: center;
+}
+img {
+    height: 100px;
+    padding:10px 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+h2 {
+    display: inline-block;
+    vertical-align: middle;
+    background-color:rgb(255, 216, 228);
+    color:rgb(252, 244, 234);
+    font-family: monospace;
+    font-weight: 800;
+    font-size: xx-large;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 2px solid rgb(146, 185, 220);
+}
+h3 {
+    color:rgb(90 155 213);
+    font-family:monospace;
+    font-weight: 800;
+    font-size:x-large;
+}
+section {
+    color:rgb(114 165 211);
+}
+.container {
+    height: 300px;
+    width: 1375px;
+    padding: 10px 15px;
+}
+/*
+rgb(252, 244, 234) tan
+rgb(146, 185, 220) blue
+rgb(255, 216, 228) pink */

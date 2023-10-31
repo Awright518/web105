@@ -1,0 +1,36 @@
+body {
+    background: ivory;
+    color:rgb(192, 210, 235);
+    font-family:cursive
+}
+nav{
+    text-align:center;
+    
+}
+/*buttons*/
+nav a{
+   text-decoration:none; /* gets rid of underline*/
+    margin-left:50px; /*spreads buttons apart*/
+   background:rgb(192, 210, 235);
+    color: ivory;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border:2px solid;
+}
+nav a:hover{
+    color:rgb(192,210,235);
+    background-color: ivory
+}
+
+
+li a{
+    color:#ebb8b8;
+    line-height:2.5;
+    font-size: large;
+    font-weight: bold;
+    text-decoration:none;
+}
+ 
+li a:hover{
+    text-decoration: underline;
+}

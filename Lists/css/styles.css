@@ -1,0 +1,28 @@
+body{
+    background-color:rgb(165, 203, 237);
+    color:azure;
+    font-size:large;
+    line-height:1.5;
+}
+
+.container{
+    width:80%;
+    margin: 20px auto;
+}
+
+ul {
+    list-style-type: "\27BF"
+}
+
+ul ul{
+list-style-type: "\1F7FF"
+
+}
+
+dt {
+    color:black
+}
+
+dd {
+    color:rgb(96, 96, 96) 
+}

@@ -1,0 +1,72 @@
+body {
+  font-size: larger;  
+  font-family: monospace;
+  background-color: ivory;
+  color: rgb(118, 118, 118);
+}
+h1 {
+    text-align: center;
+    color:rgb(97, 97, 97);
+}
+#travel1, #travel2 {
+    width: 50%;
+    border: 2px solid rgb(92, 149, 229);
+    height: 400px;
+    width: 500px;
+}
+nav {
+    text-align: center;
+}
+nav a {
+    text-decoration: none;
+    /* gets rid of underline*/
+    margin-left: 50px;
+    /*spreads buttons apart*/
+    background: rgb(92, 149, 229);
+    color: ivory;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+nav a:hover {
+    color: rgb(92, 149, 229);
+    background-color: ivory;
+    border: 2px solid rgb(92, 149, 229);
+}
+p {
+    font-size:larger;
+    border: 2px solid rgb(92, 149, 229);
+    padding: 10px;
+}
+h2 {
+    font-size: xx-large;
+    padding:5px;
+    text-align: center;
+}
+hr {
+    border: 2px solid;
+}
+#dog1, #dog2, #tennis1, #tennis2, #tennis3 {
+    width:30%;
+    border: 2px solid rgb(92, 149, 229);
+}
+#dog1 {
+    margin-left: 250px;
+}
+div {
+    background-color: ivory;
+    padding: 30px;
+    border:5px solid;
+}
+#travel1 {
+    margin-left: 200px;
+
+}
+#tennis1 {
+    width:400px;
+    height:500px;
+    margin-left: 275px;
+}
+#tennis2 {
+    width:500px ;
+    height: 400px;
+}
