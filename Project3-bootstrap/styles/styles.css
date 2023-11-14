@@ -1,0 +1,337 @@
+:root{
+    --light-green:#8FAA66;
+    --darker-green:#4D643F;
+    --light-navy: #182B37;
+    --dark-navy: #07151C;
+    --brown: #73452E;
+    --faded-background:#000000c9;
+    --white: white; 
+    --font: 'Ysabeau Infant', 'sans serif' ;
+    --heading: 'Noto Serif Old Uyghur', 'sans serif';
+}
+
+body {
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* HEADER FOR EACH PAGE*/
+h3{
+    display: inline-block;
+    color: var(--light-green);
+    margin: 10px;
+    font-size: 30px;
+    font-family: var(--heading);
+    font-weight: 100;
+}
+
+h3, .dropdown{
+    float: right;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 15px;
+    background: var(--light-green);
+    color: var(--dark-navy);
+    padding: 10px 15px;
+    font-size: 20px;
+    font-family: var(--heading);
+}
+
+nav a:hover {
+    color: var(--white);
+    background-color: var(--darker-green);
+    font-family: var(--heading);
+}
+
+h1{
+    color: var(--white);
+    text-align: center;
+    font-weight:100;
+    font-size:xx-large;
+    background-color: var(--faded-background);
+    padding: 20px 25px;
+    font-family: var(--heading);
+
+}
+
+.text-block {
+    font-size: 45px;
+    color: var(--white);
+    padding: 20px;
+    font-weight: 100;
+}
+
+.box-text {
+    text-align: left;
+    margin-top: 280px;
+    margin-left: 200px;
+    width: 50%;
+    background-color: var(--faded-background);
+    font-family: var(--heading);
+    font-weight: 100;
+        
+}
+/* From W3schools only changed slightly
+DROPDOWN*/
+.drop {
+    background-color: var(--light-green);
+    color: var(--darker-green);
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: left;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: var(--faded-background);
+    min-width: 160px;
+    z-index: 1;
+    font-family: var(--heading);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: var(--white);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: var(--darker-green);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: var(--darker-green);}
+
+/*DROPBOX END */
+/*HEADER END*/
+
+/*PAGE CONTENT*/
+p{
+    font-family: var(--font);
+}
+/* ABOUT CSS*/
+#img1, #img2, #img3, #img4, #img5, #img6  {
+      width: 80%; 
+}
+
+.container-about {
+    padding: 20px;
+    width: 80%;
+    margin: 10px auto;
+    background-color: var(--faded-background);
+    color: var(--white);
+    text-align: center;
+    font-size: 20px;
+}
+.sec-background
+{
+    background-color: var(--light-green);
+    border: 10px solid var(--darker-green);
+    padding: 10px;
+}
+dt {
+    margin-top: 40px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: var(--darker-green);
+    padding: 10px;
+}
+
+.grid-container>div {
+    background-color: var(--light-green);
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+#large {
+    width: 60%;
+    display: block;
+    margin: 25px auto;
+}
+/* ABOUT CSS END*/
+
+/*CACTUS CSS*/
+.card {
+    width: 30%;
+    margin: 10px auto;
+    height: 475px;
+    box-sizing: border-box;
+    float: left;
+    background-color: var(--faded-background);
+    padding: 9px;
+    text-align: center;
+    color: white;
+    margin-left: 35px;
+    border: 5px solid var(--darker-green);
+}
+
+ #cactusimg3, #cactusimg4  {
+    width: 60%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 3px;
+    border: 5px solid var(--light-green);
+}
+#cactusimg1, #cactusimg2, #cactusimg5, #cactusimg6{
+    width: 75%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 3px;
+    border: 5px solid var(--light-green);
+}
+/*CACTUS CSS END*/
+
+/*FLOWERS CSS*/
+.row{
+    float: right;
+    background-color: var(--darker-green);
+    margin-left: 50px;
+    padding: 10px 15px;
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 615px;
+    height:795px;
+}
+.column{
+    width: 140%;
+}
+.flowersP {
+    color: var(--white);
+    background-color: var(--faded-background);
+    font-size: 23px;
+    padding: 10px 15px;
+    margin: 10px;
+    width: 700px;
+}
+img{
+    width: 70%;
+}
+/*FLOWERS CSS END*/
+
+/*ROCKS CSS*/
+.block1, .block2, .block3, .block4, .block5 {
+    margin: 10px;
+    color: var(--white);
+    background-color: var(--faded-background);
+    padding: 10px 15px;
+    font-size: 20px;
+}
+.block6{
+    margin: 10px;
+        color: var(--white);
+        background-color: var(--faded-background);
+        padding: 10px 15px;
+        font-size: 16px;
+}
+.block1, .block2, .block3 {
+    width: 900px;
+    height: 150px;
+    display: inline-block;
+}
+.block4 {
+    background-color: var(--faded-background);
+    color: var(--white);
+    float: right;
+    width: 400px;
+    height: 530px;
+}
+.img-rock1,  .img-rock3, .img-rock5{
+    width: 20%;
+    display: inline;
+    float: left;
+    margin: 10px;
+}
+.img-rock2, .img-rock6{
+    width: 20%;
+        display: inline;
+        float: right;
+    margin: 10px;
+}
+.img-rock4{
+    width: 80%;
+    margin-left: 50px;
+}
+.img-rock5, .img-rock6{
+    width:25%;
+}
+
+/*ROCKS CSS END*/
+
+/*TROPICAL CSS*/
+#img1,
+#img2,
+#img3,
+#img4,
+#img5,
+#img6 {
+    width: 80%;
+}
+
+.container-tropical {
+    padding: 20px;
+    width: 80%;
+    margin: 10px auto;
+    background-color: var(--faded-background);
+    color: var(--white);
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.grid-container-tropical {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: var(--darker-green);
+    padding: 10px;
+}
+
+.grid-container-tropical>div {
+    background-color: var(--light-green);
+    padding: 5px 0;
+    cursor: pointer;
+    padding: 10px;
+}
+
+/*TROPICAL CSS END*/
+
+/*CONTENT END*/
+
+/*FOOTER*/
+#footer-home {
+    text-align: center;
+    color: var(--white);
+    margin-top: 110px;
+}
+
+footer {
+    text-align: center;
+    color: var(--white);
+}
+/*FOOTER END*/

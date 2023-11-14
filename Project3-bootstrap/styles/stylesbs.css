@@ -1,0 +1,12 @@
+.masthead{
+        background-color: #182B37;
+        color: #8FAA66;
+        padding: 2rem 0;
+        text-align: center;
+        margin-bottom: 2rem;
+}
+#plant{
+    width: 80%;
+    display: block;
+    margin: 20px auto;
+}
