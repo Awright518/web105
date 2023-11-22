@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Botanical Gardens</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="styles/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,98 +26,146 @@
         <a href="Cactus.html">Cactus</a>
         <a href="Flowers.html">Flowers</a>
         <a href="Rocks.html">Rocks</a>
+        <a href="boostrap.html">Bootstrap</a>
       </div>
     </div>
     <h3>menu</h3>
     <br />
     <nav><a href="index.html">Home</a></nav>
-
+    <br />
     <h1>About Botanical Gardens</h1>
     <main class="container-about">
-      <div class="sec-background">
-        <div id="main-image">
-          <img
-            src="images/botanical1.jpg"
-            alt="Picture of Botanical Gardens (1)"
-            id="large"
-          />
-          <p>
-            &nbsp;Botanical gardens are like special places where you can
-            explore and learn about different kinds of plants. These gardens are
-            filled with a wide variety of plants, from small flowers to tall
-            trees, and some plants you might not have seen before from different
-            parts of the world.&nbsp;One of the cool things about botanical
-            gardens is that they're not just beautiful places, but they're also
-            like big classrooms. When you visit, you can discover all sorts of
-            interesting information about plants, like where they come from, how
-            they grow, and why they're important. It's like a fun way to learn
-            about nature.&nbsp;But there's more to it than that. Scientists use
-            botanical gardens for their research. They study plants to
-            understand their biology, genetics, and how they fit into the
-            environment. Botanical gardens also help protect plants that are at
-            risk of disappearing. They're like safe havens for these special
-            plants.&nbsp;Beyond education and science, botanical gardens offer a
-            peaceful escape from busy city life. You can take a leisurely walk,
-            enjoy the beauty of blooming flowers, and find some quiet time by
-            ponds and trails.&nbsp;Botanical gardens are a place where art and
-            science come together, connecting us to the wonders of the plant
-            world. Whether you're a budding botanist, a nature lover, or just
-            looking for a place to unwind, botanical gardens provide an
-            opportunity to explore, appreciate, and find inspiration in the
-            incredible world of plants.
-          </p>
+      <!-- Carousel -->
+      <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="0"
+            class="active"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="5"
+          ></button>
         </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="images/botanical1.jpg"
+              alt="Picture of Botanical Gardens (1)"
+              class="d-block"
+              style="width: 100%"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/botanical2.jpg"
+              alt="Picture of Botanical Gardens (2)"
+              class="d-block"
+              style="width: 100%"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/botanical3.jpg"
+              alt="Picture of Botanical Gardens (3)"
+              class="d-block"
+              style="width: 100%"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/botanical4.jpg"
+              alt="Picture of Botanical Gardens (4)"
+              class="d-block"
+              style="width: 100%"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/botanical5.jpg"
+              alt="Picture of Botanical Gardens (5)"
+              class="d-block"
+              style="width: 100%"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/botanical6.jpg"
+              alt="Picture of Botanical Gardens (6)"
+              class="d-block"
+              style="width: 100%"
+            />
+          </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
       </div>
-      <div class="grid-container">
-        <div>
-          <img
-            src="images/botanical1.jpg"
-            alt="Picture of Botanical Gardens (1)"
-            id="img1"
-            onclick='change("images/botanical1.jpg")'
-          />
-        </div>
-        <div>
-          <img
-            src="images/botanical2.jpg"
-            alt="Picture of Botanical Gardens (2)"
-            id="img2"
-            onclick='change("images/botanical2.jpg")'
-          />
-        </div>
-        <div>
-          <img
-            src="images/botanical3.jpg"
-            alt="Picture of Botanical Gardens (3)"
-            id="img3"
-            onclick='change("images/botanical3.jpg")'
-          />
-        </div>
-        <div>
-          <img
-            src="images/botanical4.jpg"
-            alt="Picture of Botanical Gardens (4)"
-            id="img4"
-            onclick='change("images/botanical4.jpg")'
-          />
-        </div>
-        <div>
-          <img
-            src="images/botanical5.jpg"
-            alt="Picture of Botanical Gardens (5)"
-            id="img5"
-            onclick='change("images/botanical5.jpg")'
-          />
-        </div>
-        <div>
-          <img
-            src="images/botanical6.jpg"
-            alt="Picture of Botanical Gardens (6)"
-            id="img6"
-            onclick='change("images/botanical6.jpg")'
-          />
-        </div>
-      </div>
+      <p>
+        &nbsp;Botanical gardens are like special places where you can explore
+        and learn about different kinds of plants. These gardens are filled with
+        a wide variety of plants, from small flowers to tall trees, and some
+        plants you might not have seen before from different parts of the
+        world.&nbsp;One of the cool things about botanical gardens is that
+        they're not just beautiful places, but they're also like big classrooms.
+        When you visit, you can discover all sorts of interesting information
+        about plants, like where they come from, how they grow, and why they're
+        important. It's like a fun way to learn about nature.&nbsp;But there's
+        more to it than that. Scientists use botanical gardens for their
+        research. They study plants to understand their biology, genetics, and
+        how they fit into the environment. Botanical gardens also help protect
+        plants that are at risk of disappearing. They're like safe havens for
+        these special plants.&nbsp;Beyond education and science, botanical
+        gardens offer a peaceful escape from busy city life. You can take a
+        leisurely walk, enjoy the beauty of blooming flowers, and find some
+        quiet time by ponds and trails.&nbsp;Botanical gardens are a place where
+        art and science come together, connecting us to the wonders of the plant
+        world. Whether you're a budding botanist, a nature lover, or just
+        looking for a place to unwind, botanical gardens provide an opportunity
+        to explore, appreciate, and find inspiration in the incredible world of
+        plants.
+      </p>
     </main>
     <script src="script.js"></script>
 

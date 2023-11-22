@@ -211,15 +211,21 @@ dt {
 .row{
     float: right;
     background-color: var(--darker-green);
-    margin-left: 50px;
     padding: 10px 15px;
     display: grid;
     grid-template-columns: auto auto;
-    width: 615px;
-    height:795px;
+    width: 50%;
+    height: 80%;
+    margin: 10px;
 }
 .column{
-    width: 140%;
+    margin: 10px, 15px;
+    width: 30%;
+}
+img{
+    width: 300%;
+    margin: 20px;
+    padding: 15px;
 }
 .flowersP {
     color: var(--white);
@@ -227,10 +233,13 @@ dt {
     font-size: 23px;
     padding: 10px 15px;
     margin: 10px;
-    width: 700px;
+    width: 45%;
+    overflow: auto;
 }
-img{
-    width: 70%;
+.btn {
+    color: var(--darker-green);
+    background-color: var(--light-green);
+    border: 2px solid var(--light-green);
 }
 /*FLOWERS CSS END*/
 
@@ -318,7 +327,9 @@ img{
     cursor: pointer;
     padding: 10px;
 }
-
+.modal-header, .modal-body{
+    color: var(--darker-green);
+}
 /*TROPICAL CSS END*/
 
 /*CONTENT END*/
@@ -328,10 +339,12 @@ img{
     text-align: center;
     color: var(--white);
     margin-top: 110px;
+    clear:both;
 }
 
 footer {
     text-align: center;
     color: var(--white);
+    clear:both;
 }
 /*FOOTER END*/
